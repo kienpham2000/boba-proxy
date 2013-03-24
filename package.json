@@ -1,0 +1,26 @@
+{
+  "name": "boba-proxy",
+  "preferGlobal": false,
+  "version": "0.0.1",
+  "author": "Kien Pham <kien@sendgrid.com>",
+  "description": "Proxy implementation based on http-proxy",
+  "scripts": {
+    "start": "coffee proxy.coffee",
+    "test": "TODO: do something for test here",
+    "predeploy": "TODO: do something before deployment...",
+    "postdeploy": "TODO: do something after deployment..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kienpham2000/boba-proxy.git"
+  },
+  "dependencies": {
+    "coffee-script"      : "1.6.x",
+    "http-proxy"         : "0.10.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "~0.8.x",
+    "npm": "1.2.x"
+  }
+}

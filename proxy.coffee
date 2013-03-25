@@ -4,7 +4,9 @@ http_proxy = require 'http-proxy'
 proxy_port = process.env.NODE_PROXY_PORT or 80
 
 if process.env.NODE_ENV == 'prod'
-  proxy_options = router:
+  proxy_options =
+    hostnameOnly: true
+    router:
       'kienpham.com': '127.0.0.1:2000',
       'www.kienpham.com': '127.0.0.1:2000',
       'hotelx.co': '127.0.0.1:3000',

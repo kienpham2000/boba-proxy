@@ -16,14 +16,17 @@ if process.env.NODE_ENV == 'prod'
       'fionabakery.com': '127.0.0.1:3002',
       'www.fionabakery.com': '127.0.0.1:3002',
       'anchoinhaymua.com': '127.0.0.1:3003',
-      'www.anchoinhaymua.com': '127.0.0.1:3003'
+      'www.anchoinhaymua.com': '127.0.0.1:3003',
+      'airping.co': '127.0.0.1:3004',
+      'www.airping.co': '127.0.0.1:3004'
 else
   proxy_options = router:
       'kienpham.dev': '127.0.0.1:2000',
       'hotelx.dev': '127.0.0.1:3000',
       'happyshadowstudio.dev': '127.0.0.1:3001',
       'fionabakery.dev': '127.0.0.1:3002',
-      'anchoinhaymua.dev': '127.0.0.1:3003'
+      'anchoinhaymua.dev': '127.0.0.1:3003',
+      'airping.dev': '127.0.0.1:3004'
 
 proxy_server = http_proxy.createServer(proxy_options)
 proxy_server.listen(proxy_port)

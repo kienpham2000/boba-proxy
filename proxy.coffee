@@ -1,7 +1,7 @@
 http_proxy = require 'http-proxy'
 
 # settings:
-proxy_port = process.env.NODE_PROXY_PORT or 8000
+proxy_port = process.env.NODE_PROXY_PORT or 80
 
 ENV = process.env.NODE_ENV or 'prod'
 

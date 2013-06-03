@@ -5,6 +5,7 @@ config.router =
     'happyshadowstudio.dev': '127.0.0.1:3001',
     'fionabakery.dev': '127.0.0.1:3002',
     'anchoinhaymua.dev': '127.0.0.1:3003',
-    'airping.dev': '127.0.0.1:3004'
+    'airping.dev': '127.0.0.1:3004',
+    'wefx.dev': '127.0.0.1:3005'
 
 module.exports = config

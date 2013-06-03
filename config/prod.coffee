@@ -12,6 +12,8 @@ config.router =
 	'anchoinhaymua.com': '127.0.0.1:3003',
 	'www.anchoinhaymua.com': '127.0.0.1:3003',
 	'airping.co': '127.0.0.1:3004',
-	'www.airping.co': '127.0.0.1:3004'
+	'www.airping.co': '127.0.0.1:3004',
+	'wefx.co': '127.0.0.1:3005',
+	'www.wefx.co': '127.0.0.1:3005'
 
 module.exports = config

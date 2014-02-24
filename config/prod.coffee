@@ -9,6 +9,8 @@ config.router =
 	'www.happyshadowstudio.com': '127.0.0.1:3001',
 	'fionabakery.com': '127.0.0.1:3002',
 	'www.fionabakery.com': '127.0.0.1:3002',
+	'fionabakery.net': '127.0.0.1:3002',
+	'www.fionabakery.net': '127.0.0.1:3002',
 	'anchoinhaymua.com': '127.0.0.1:3003',
 	'www.anchoinhaymua.com': '127.0.0.1:3003',
 	'airping.co': '127.0.0.1:3004',
